@@ -31,9 +31,7 @@ else if(args.n) {
 } else {
     console.log("Latitude must be in range");
     process.exit(0);
-}
-
-if(args.w && args.e) {
+} if(args.w && args.e) {
     console.log("Please only input one longitude argument. Either west (w) or east (e).");
     process.exit(0);
 }
