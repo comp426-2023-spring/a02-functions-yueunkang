@@ -58,9 +58,7 @@ if (days == 0) {
     string += "in " + days + " days.";
 } else {
     string += "tomorrow.";
-}
-
-if(args.j) {
+} if(args.j) {
     console.log(data);
     process.exit(0)
 } else { console.log(string); }
