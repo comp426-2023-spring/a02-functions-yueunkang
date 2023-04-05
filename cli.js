@@ -6,8 +6,6 @@ import moment from "moment-timezone";
 
 const timezone = moment.tz.guess();
 
-// get command line arguments
-
 const args = minimist(process.argv.slice(2));
 
 // if -h, print help message
