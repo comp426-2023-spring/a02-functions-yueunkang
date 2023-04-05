@@ -63,6 +63,5 @@ if (days == 0) {
 if(args.j) {
     console.log(data);
     process.exit(0)
-}
-else { console.log(string);
+} else { console.log(string);
 }
