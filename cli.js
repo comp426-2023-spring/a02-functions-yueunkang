@@ -4,7 +4,6 @@ import fetch from "node-fetch";
 import moment from "moment-timezone";
 
 const timezone = moment.tz.guess();
-
 const args = minimist(process.argv.slice(2));
 
 if (args.h){
