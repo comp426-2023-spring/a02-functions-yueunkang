@@ -36,8 +36,7 @@ else if(args.n) {
     process.exit(0);
 } else if(args.e) {
     longitude = args.e;
-}
-else if(args.w) {
+} else if(args.w) {
     longitude = -args.w;
 }
 else {
