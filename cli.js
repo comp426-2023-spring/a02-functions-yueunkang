@@ -8,8 +8,6 @@ const timezone = moment.tz.guess();
 
 const args = minimist(process.argv.slice(2));
 
-// if -h, print help message
-
 if (args.h){
     console.log(`Usage: galosh.js [options] -[n|s] LATITUDE -[e|w] LONGITUDE -z TIME_ZONE
         -h            Show this help message and exit.
