@@ -79,8 +79,6 @@ if (days == 0) {
 }
 
 // if -j, print json data object
-// else, print the parsed string
-
 if(args.j) {
     console.log(data);
     process.exit(0)
