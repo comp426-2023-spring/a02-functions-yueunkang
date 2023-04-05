@@ -78,7 +78,6 @@ if (days == 0) {
     string += "tomorrow.";
 }
 
-// if -j, print json data object
 if(args.j) {
     console.log(data);
     process.exit(0)
