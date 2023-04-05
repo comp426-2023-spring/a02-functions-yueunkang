@@ -20,8 +20,6 @@ if (args.h){
     process.exit(0);
 }
 
-// calculate latitude and longitude appropriately
-
 let latitude;
 let longitude;
 
