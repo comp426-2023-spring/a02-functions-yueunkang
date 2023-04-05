@@ -51,8 +51,7 @@ let string;
 if(data.daily.precipitation_hours[days] > 0) {
     string = "Don't forget your umbrella. It's raining ";
 } else {
-    string = "It should be sunny ";
-}
+    string = "It should be sunny ";}
 
 if (days == 0) {
     string += "today.";
