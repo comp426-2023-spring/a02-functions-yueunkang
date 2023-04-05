@@ -53,8 +53,6 @@ else {
     process.exit(0);
 }
 
-// parse url
-
 const url = "https://api.open-meteo.com/v1/forecast?latitude=" + latitude + "&longitude=" + longitude + "&timezone=" + timezone + "&daily=precipitation_hours";
 
 // data response from fetch
