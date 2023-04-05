@@ -20,7 +20,6 @@ if (args.h){
 
 let latitude;
 let longitude;
-
 if(args.n && args.s) {
     console.log("Please only input one latitude argument. Either north (n) or south (s).");
     process.exit(0);
