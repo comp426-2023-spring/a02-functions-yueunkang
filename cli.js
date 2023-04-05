@@ -59,8 +59,6 @@ const response = await fetch(url);
 
 const data = await response.json();
 
-// see which days the user wants to see data for (default is tomorrow)
-
 const days = args.d
 
 // parse string message from data (if it's raining or sunny)
