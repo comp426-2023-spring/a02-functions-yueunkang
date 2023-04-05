@@ -26,8 +26,7 @@ if(args.n && args.s) {
 }
 else if(args.n) {
     latitude = args.n;
-}
-else if(args.s) {
+} else if(args.s) {
     latitude = -args.s;
 }
 else {
