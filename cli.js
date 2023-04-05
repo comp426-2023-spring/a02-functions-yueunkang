@@ -46,7 +46,6 @@ const url = "https://api.open-meteo.com/v1/forecast?latitude=" + latitude + "&lo
 const response = await fetch(url);
 const data = await response.json();
 const days = args.d
-
 let string;
 
 if(data.daily.precipitation_hours[days] > 0) {
