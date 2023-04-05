@@ -41,8 +41,7 @@ else if(args.n) {
 } else {
     console.log("Please input a longitude argument. Either north west (w) or east (e).");
     process.exit(0);
-}
-
+} 
 const url = "https://api.open-meteo.com/v1/forecast?latitude=" + latitude + "&longitude=" + longitude + "&timezone=" + timezone + "&daily=precipitation_hours";
 
 const response = await fetch(url);
